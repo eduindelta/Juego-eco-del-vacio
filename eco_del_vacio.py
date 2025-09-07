@@ -13,7 +13,7 @@ if decision_1 == "PANEL" or decision_1 == "EL PANEL":
         if decision1_2 == "ARMERIA" or decision1_2 == "LA ARMERIA":
             print("\nEntras y tomas un rifle de plasma. Es ligero y potente. De repente, escuchas pasos metálicos acercándose rápidamente. Las puertas se están cerrando. \nTienes tres opciones: \n")
             decision1_2_1 = input("1.DISPARAR a la consola de la puerta para mantenerla abierta.\n2.BUSCAR otra salida en la armeria.\n3.ESCONDERTE entre los estantes de armas.\nELIGE: ").upper()
-            if decision1_2_1 == "DISPARA" or decision1_2_1 == "1" or decision1_2_1 == "DISPARAR A LA CONSOLA":
+            if decision1_2_1 == "DISPARAR" or decision1_2_1 == "1" or decision1_2_1 == "DISPARAR A LA CONSOLA":
                 print("\nApuntas el rifle de plasma a la consola de la puerta y disparas. El rayo de energía impacta con un estallido cegador, friendo los circuitos. La puerta se detiene a medio cerrar, ¡pero tu disparo también activa las defensas automáticas de la armería! Múltiples torretas bajan del techo y te apuntan. No tienes a dónde correr.\n")
                 print("---Fin del juego. Una decisión impulsiva te ha costado la vida---\n")
             elif decision1_2_1 == "BUSCAR" or decision1_2_1 == "2" or decision1_2_1 == "BUSCAR OTRA SALIDA":
@@ -223,4 +223,5 @@ elif decision_1 == "DISPOSITIVO" or decision_1 == "EL DISPOSITIVO":
             print("Error: Introduce una opcion valida")
     else:
         print("Error: Introduce una opcion valida")
+
 
