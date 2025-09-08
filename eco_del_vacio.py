@@ -2,7 +2,6 @@ print("\n------------ ECO DEL VACIO ------------\n")
 
 print("Despiertas con un zumbido metálico en tus oídos. Estás en una sala tenuemente iluminada, con paredes de un material liso y oscuro que no reconoces. No recuerdas cómo llegaste aquí. Frente a ti, hay una consola central con un PANEL brillante y, sobre una mesa auxiliar, reposa un extraño DISPOSITIVO esférico.\n")
 
-
 decision_1 = input("¿Qué quieres investigar primero: el PANEL o el DISPOSITIVO?: ").upper()
 if decision_1 == "PANEL" or decision_1 == "EL PANEL":
     print("\nTe acercas a la consola. La pantalla cobra vida y muestra tres símbolos alienígenas:\n")
@@ -28,6 +27,9 @@ if decision_1 == "PANEL" or decision_1 == "EL PANEL":
                         if decision1_2_4 == "OBSERVAR":
                             print("\nHaz descubierto su punto debil y te haz convertido en la clave para la supervivencia de tu gente\n")
                             print("-------------------- FINAL A (EL ESPIA) -------------------")
+                        elif decision1_2_4 == "SABOTEAR":
+                            print("\nCausas una explosión que te incapacita, dejando tu destino incierto.")
+                            print("-------------------- FINAL B (EL SABOTEADOR) -------------------")
                         else:
                             print("Introduce una opcion valida")
                     elif decision1_2_3 == "ABAJO":
@@ -223,5 +225,6 @@ elif decision_1 == "DISPOSITIVO" or decision_1 == "EL DISPOSITIVO":
             print("Error: Introduce una opcion valida")
     else:
         print("Error: Introduce una opcion valida")
+
 
 
